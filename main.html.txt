@@ -1,0 +1,121 @@
+NIM		: 2209996
+Nama		: Mohammad Akbar Maulana
+Kelas		: 3A PSTI
+Mata Kuliah	: Pemrograman Internet
+Dosen Pengampu	: Rian Andrian, S.T., M.T.
+Tugas 2 PROMNET
+
+	Pengertian Version Control System (GIT)
+Git adalah sistem kontrol versi yang sangat populer dan digunakan secara luas dalam pengembangan perangkat lunak. Ini memungkinkan pengembang untuk melacak perubahan dalam kode sumber mereka, bekerja sama dengan tim, dan mengelola riwayat perubahan dengan efisien.
+
+Git adalah sistem kontrol versi terdistribusi yang dikembangkan oleh Linus Torvalds pada tahun 2005. Sistem ini diciptakan untuk mengatasi banyak masalah yang ada dalam sistem kontrol versi sebelumnya, seperti Subversion dan CVS. Git berfokus pada kecepatan, ketahanan, dan kemampuan untuk mendukung pengembangan perangkat lunak yang besar dan terdistribusi.
+
+	Sistem Kontrol Versi Terdistribusi
+Salah satu fitur utama Git adalah sifatnya yang terdistribusi. Ini berarti setiap rekan pengembang memiliki salinan lengkap dari repositori Git, termasuk sejarah perubahan, di komputer mereka. Ini memungkinkan pengembang untuk bekerja secara independen, bahkan tanpa koneksi internet, dan kemudian menyatukan perubahan mereka saat mereka online.
+
+	 Repositori
+Repositori Git adalah tempat penyimpanan untuk proyek perangkat lunak. Repositori ini berisi semua file sumber, sejarah perubahan, dan konfigurasi proyek. Ada dua jenis repositori Git:
+
+- Repositori Lokal: Repositori Git di komputer pengembang tempat mereka bekerja pada kode sumber proyek.
+
+- Repositori Jarak Jauh (Remote): Repositori yang disimpan di server pusat atau platform hosting Git seperti GitHub, GitLab, atau Bitbucket. Ini memungkinkan kolaborasi tim dan berbagi kode.
+
+	Perintah Utama Git
+Git memiliki sejumlah perintah utama yang digunakan untuk mengelola repositori dan berinteraksi dengan sejarah perubahan. Beberapa perintah penting meliputi:
+
+1. git init: Untuk membuat repositori Git baru.
+2. git Status: Digunakan untuk mengecek status repository lokal.
+3. git clone: Untuk menduplikasi repositori Git yang ada.
+4. git add: Untuk menambahkan file atau perubahan ke area persiapan (staging area).
+5. git commit: Untuk membuat snapshot dari perubahan dalam repositori.
+6. git pull: Untuk mendapatkan perubahan terbaru dari repositori jarak jauh.
+7. git push: Untuk mengirimkan perubahan lokal ke repositori jarak jauh.
+8. git branch: Untuk mengelola cabang (branch) dalam repositori.
+9. git merge: Untuk menggabungkan perubahan dari satu cabang ke cabang lain.
+10. git log: Untuk melihat sejarah perubahan dalam repositori.
+11. git Checkout: Merupakan perintah dasar yang digunakan untuk menukar cabang aktif dengan cabang yang dipilih.
+12. git diff : untuk melihat perbedaan antara file di working directory dan staging area
+
+	Cabang (Branch)
+Git memungkinkan pengembang untuk membuat cabang dari kode sumber utama. Ini memungkinkan pengembang untuk bekerja pada fitur atau perbaikan bug tanpa mempengaruhi kode utama. Setelah perubahan dianggap siap, cabang dapat digabungkan kembali ke cabang utama.
+
+	GitHub dan Platform Hosting
+GitHub adalah platform hosting Git yang sangat populer, dan ada juga alternatif seperti GitLab dan Bitbucket. Ini memungkinkan pengembang untuk menyimpan repositori mereka secara online, berkolaborasi dengan tim, dan mengelola proyek secara terpusat.
+
+ 	.gitignore
+File .gitignore digunakan untuk mengabaikan file atau direktori tertentu dalam repositori Git. Ini berguna untuk menghindari penambahan file yang tidak relevan atau sementara ke repositori.
+
+	Konflik Merge
+Ketika dua cabang berbeda mengubah bagian yang sama dari kode, Git dapat menyebabkan konflik merge. Pengembang harus menyelesaikan konflik ini secara manual.
+
+	Integrasi dengan Alat Pengembangan
+Git berintegrasi dengan berbagai alat pengembangan seperti Visual Studio Code, IntelliJ IDEA, dan banyak lainnya. Ini membuatnya lebih mudah untuk mengelola perubahan kode dan berkolaborasi dalam lingkungan pengembangan yang nyaman.
+
+	Penggunaan dalam Pengembangan Perangkat Lunak Terbuka:
+Git adalah salah satu alat yang paling banyak digunakan dalam proyek perangkat lunak terbuka (open source) karena memfasilitasi kontribusi dari berbagai pengembang dari seluruh dunia.
+
+	Pengamanan dan Otorisasi
+Platform hosting Git seperti GitHub memberikan alat untuk mengelola hak akses dan otorisasi pengembang dalam repositori.
+
+	Dokumentasi dan Komunitas
+Git memiliki dokumentasi yang luas dan komunitas yang aktif yang membantu pengembang dalam memahami dan mengatasi masalah.
+
+	Fungsi Version Control System (Git)
+1. Digunakan untuk Berkolaborasi
+2. Proyek Open Source
+3. Membantu Organisir
+4. Sebagai Platform Fleksibilitas
+5. Menjadi backup
+
+	Fitur Git
+1. Version Control System
+2. Branch Code
+3. Bersifat Atomic
+4. Media Penyimpanan dalam Folder .git
+5. Data Model 
+6. Staging Area Atau Index
+
+	Keunggulan dan Kelemahan Git
+Keunggulan dari Git adalah sebagai berikut:
+1. Lebih mudah untuk developer dalam mengembangkan dan terlibat pada pengembangan proyek. 
+2. Memudahkan untuk pull requests dan mendokumentasikan proyek, baik dari segi kode, sumber, maupun melakukan perubahan fitur. 
+3. Menyimpan dan memperlihatkan perubahan yang terjadi pada setiap file.
+4. Melakukan arsip dan menyimpan secara offline maupun online. 
+5. Lebih mudah dimengerti dan dipahami oleh developer.
+
+Kelemahan dari Git adalah sebagai berikut:
+1. Memiliki kinerja yang kurang optimal. 
+2. Jika menggunakan Windows, tampilannya sangat terbatas dibandingkan dengan Linux.  
+
+	Manfaat GIT
+1. Akan sangat memudahkan para developer untuk dapat berpartisipasi di dalam sebuah pengembangan project yang dilakukan oleh orang-orang. 
+2. Dapat memudahkan dalam melakukan sebuah dokumentasi project, baik dari sisi source code nya ataupun perubahan fungsi. 
+3. Perubahan yang ada di setiap file ini nantinya akan di commit sehingga bisa dilihat. 
+4. Repositasi dapat disimpan dengan offline ataupun online. 
+5. Mudah dalam mendesain sehingga akan sangat mudah dipahami. 
+6. Memiliki checkpoint sendiri ketika ada perubahan pada sebuah kode. 
+7. Menyimpan seluruh versi source code. 
+8. Dapat berkontribusi di dalam berbagai proyek yang sifatnya open source. 
+9. Dapat memahami cara mendeploy pada sebuah aplikasi modern. 
+10. Dapat memahami cara dalam berkolaborasi pada sebuah ataupun pada beberapa proyek.
+
+	Perbedaan Git dan GitHub 
+  1. GIT 
+- Dikelola oleh The Linux Foundation 
+- Meng install software pada penyimpanan lokal 
+- Berfokus di version control serta code sharing 
+- Akses secara offline 
+- Menyediakan desktop interface bernama Git GUI 
+- Tidak menggunakan fitur user management 
+- Open sourced licensed 
+- Bersaing dengan Subversion, Mercurial, Rational Team, IBM, ClearCase, dan Concert
+
+  2. GitHub 
+- Diakuisisi Microsoft pada tahun 2018 
+- Host melalui layanan cloud 
+- Akses secara online 
+- Menggunakan user management 
+- Fokus pada source code hosting 
+- Menggunakan nama desktop interface GitHub Desktop 
+- Pilihan bagi para pengguna gratis serta pengguna berbayar 
+- Bersaing dengan GitLab dana juga Atlassian BitBucket 
