@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Promnet 3</title>
+
+    <!-- Mode Internal CSS -->
+    <style>
+      h1 { color: rgb(228, 13, 13);}
+  </style> 
+
+  <!-- Mode External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- inline CSS -->
+    <h1 style="color: rgb(102, 218, 102);">BIODATA MAHASISWA</h1>
+
+    <!-- Deskripsi Biodata Mahasiswa -->
+      <h4>DATA DIRI</h4>
+      <h4>NIM : 2209996</h4>
+      <h4>Nama : Mohammad Akbar Maulana</h4>
+      <h4>Kelas : 3A PSTI</h4>
+      <h4>Mata Kuliah : Pemrograman Internet</h4>
+      <h4>Dosen Pengampu : Rian Andrian, S.T., M.T</h4>
+
+       <!-- paragraf --> 
+    <!-- Contoh penulisan kata yang dicetak tebal didalam kalimat -->   
+    <p><b>Lorem</b>,ipsum dolor sit amet consectetur adipisicing elit. Earum ad animi hic rerum saepe, explicabo, distinctio ipsum nesciunt ipsam, pariatur repellendus iusto dolor molestias? Earum alias et porro illo repellendus!</p> 
+    <!-- Contoh penulisan kata yang dicetak tebal -->
+    <p><b>Lorem</b></p> 
+    <!-- Contoh penulisan kata yang dicetak miring -->
+    <p><i>ipsum</i></p>
+    <!-- Contoh penulisan kata yang digaris bawahi -->
+     <p><u>dolor.</u></p>   
+
+     <!-- Ragam Penulisan Headings -->
+      <h1>Lorem, ipsum dolor</h1>
+      <h2>Lorem, ipsum dolor</h2>
+      <h3>Lorem, ipsum dolor</h3>
+      <h4>Lorem, ipsum dolor</h4>
+      <h5>Lorem, ipsum dolor</h5>
+      <h6>Lorem, ipsum dolor</h6>
+
+      <!-- superscript, contoh penggunaannya seperti untuk penulisan pangkat-->
+      <p>5<sup>3</p>
+
+      <!-- subscript, contoh penggunaannya penulisan rumus kimia -->  
+      <p>H<sub>2</sub>O</p>
+    
+      <!-- list -->
+      <!-- unordered list -->
+      <u1 type="circle">
+        <li>Teh Manis Panas</li>
+        <li>Teh Manis Dingin</li>
+        <li>Jus Mangga</li>
+      </u1>
+
+      <!-- ordered list -->
+      <ol type="a">
+      <li>Nasi Liwet</li>
+      <li>Nasi Padang</li>
+      <li>Nasi Rames</li>
+      </ol>
+
+      <!-- table-->
+      <table border="1">
+        <tr>
+            <th>No</th>
+            <th>Nama</th>
+            <th>Jurusan</th>
+        </tr>
+
+        <!-- Menggabungkan dua baris -->
+        <tr>
+            <td rowspan="2">1</td>
+            <td>Mohammad Akbar Maulana</td>
+            <td>PSTI</td>
+        </tr>
+        <tr>
+            <td>Silmi Nurfalah</td>
+            <td>PGSD</td>
+        </tr>
+        <tr>
+            <td>2</td>
+
+             <!-- menggabungkan dua kolom -->
+            <td colspan="2" style="text-align: center;">SEMUA</td>
+        </tr>
+      </table>
+
+      <!-- image -->
+      <!-- dari link google -->
+      <img src="https://upload.wikimedia.org/wikipedia/id/thumb/0/09/Logo_Almamater_UPI.svg/225px-Logo_Almamater_UPI.svg.png"
+      <!-- dari local file explorer -->
+      <!-- <img src="E-KTM AKBAR.png" alt="E-KTM AKBAR"-->
+      <img src="Logo PSTI.png" alt="Logo PSTI"></img>
+
+      <!-- anchor -->
+    <!-- membuat text yang mengarah ke halaman/web tertentu -->
+     <a href="https://google.com">Ayo Telusuri!</a> 
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.1587674009857!2d107.5911639735432!3d-6.871571767230619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7decc6e32e7%3A0x20e8f220975526f4!2sUPI%20UNIVERSITAS%20PENDIDIKAN%20INDONESIA!5e0!3m2!1sen!2sid!4v1695281604763!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.866026718467!2d107.44212597353781!3d-6.538597963917693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e690e68a1406c01%3A0xa66f34eb29c41198!2sIndonesia%20University%20Of%20Education%2C%20Campus%20Purwakarta!5e0!3m2!1sen!2sid!4v1695281399772!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+     
+   <!--Form Data Mahasiswa -->
+
+   <form action="get">
+      <form>
+        <label for="nim">NIM :</label>
+        <input type="text"><br>
+        <label for="nama">Nama :</label>
+        <input type="text"><br>
+        <label for="email">Email :</label>
+        <input type="text"><br>
+        <label for="password">Password</label>
+        <input type="password">
+        <input type="checkbox"><br>
+        <label for="tanggal-lahir">Tanggal lahir: </label>
+        <input id="tanggal-lahir" type="date"> 
+      </form>
+
+</body>
+</html>    
